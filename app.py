@@ -135,11 +135,8 @@
 
 
 
-
-
-
-
-
+# CREATE FRONTEND FOR APPLICATION:
+# setup a simple web app to allow user interaction
 
 
 
