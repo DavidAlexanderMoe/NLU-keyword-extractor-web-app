@@ -1,3 +1,4 @@
+<!-- use w3 school to see what to insert in each command-->
 <!DOCTYPE html>
 <html>
 
@@ -5,6 +6,13 @@
 
     <h1>Extract Details Engine with Natural Language Understanding</h1>
     <p>Use the search below to analyze the text contained at a URL of your choice</p>
+
+    <form action="/analyze" method="post">
+        <!-- Capture the user input to be sent to the flask server -->
+        <input type="text" id="input-url" name="webpage">
+        <!-- Insert the button to submit the request to the flas serverç-->
+        <input type="submit" value="Search URL">
+    </form>
 
 </body>
 
