@@ -8,7 +8,17 @@
 # use requests module to call api and get info on url
 # open second terminal, cd search-nlu, python app.py, copy url at which is running
 # insert the url in the .post request, add /search whcih is the endpoint
-#
+
+# after committing all the changes we can do many things like:
+# push the app to kubernetes;
+# or protect a little bit more our app -> people could use all our calls!
+# setup a login page for our app, but we are not going to do this in a proper way
+# (not using database) -> we'll simply use flask login
+# use a /login endpoint to ask user/password and if authenticated
+# (authentication part is crucial -> check if user is in database) flask puts a session token to recognize the user and
+# i can decide which endpoints the user will have access to
+# the simple login we'll use is by creating a new user, putting it into a database and then returning to the login page
+# to login
 
 
 
@@ -63,4 +73,27 @@ def search():
 def health_check():
     return {"status:": "healthy", "code": 200}
 
+
+####################################################
+#################  LOGIN  ##########################
+
+# flask login example (outdates)
+# documentation: https://pythonbasics.org/flask-login/
+
+# pip install flask-login
+from Flask_login import LoginManager, login_user
+
+# import user models from UserModel
+from UserModel import User
+
+login_manager = LoginManager()
+login_manager.init_app(app)
+
+# login page
+@app.route("/login", methods=["GET"])
+def loginpage():
+    return render_template("login.html")
+
+
+####################################################
 app.run(host='0.0.0.0', port=8080) # different port than app.py in order to let both run at same time
