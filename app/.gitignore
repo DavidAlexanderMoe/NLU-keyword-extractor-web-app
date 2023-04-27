@@ -1,5 +1,3 @@
 .env
-myfile.txt
-apikey.json
 frontend-test
-__pycache__
+FINAL_NOTES.txt

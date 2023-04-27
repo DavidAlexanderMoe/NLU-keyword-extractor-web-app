@@ -1,3 +1,5 @@
+# APP
+
 # READ ENVIRONMENT VARIABLES
 # Load environment variables
 from dotenv import load_dotenv
