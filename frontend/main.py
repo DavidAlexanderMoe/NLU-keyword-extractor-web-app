@@ -1,27 +1,3 @@
-# FRONTEND FOR APP.PY:
-# create frontend folder and all the modifications needed
-# create html file and use render_twmplate to read it
-# oper PS and go into frontend directory with cd frontend
-# run the main file: see the url where it is running
-# wee need to make it prettier and let the user be able to use it
-# create a new route that manages the interaction with the html form
-# use requests module to call api and get info on url
-# open second terminal, cd search-nlu, python app.py, copy url at which is running
-# insert the url in the .post request, add /search whcih is the endpoint
-
-# after committing all the changes we can do many things like:
-# push the app to kubernetes;
-# or protect a little bit more our app -> people could use all our calls!
-# setup a login page for our app, but we are not going to do this in a proper way
-# (not using database) -> we'll simply use flask login
-# use a /login endpoint to ask user/password and if authenticated
-# (authentication part is crucial -> check if user is in database) flask puts a session token to recognize the user and
-# i can decide which endpoints the user will have access to
-# the simple login we'll use is by creating a new user, putting it into a database and then returning to the login page
-# to login
-
-
-
 # read and load environment variables
 from dotenv import load_dotenv
 load_dotenv()
