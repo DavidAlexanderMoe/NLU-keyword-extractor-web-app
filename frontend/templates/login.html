@@ -5,9 +5,33 @@
         <p>Log in to the app to use its functionalities.</p>
 
         <!-- TODO: Prepare a form collecting:
-        - input = username
-        - input:password
-        -submit
-        submit the resukts with  a POST to /login --> -->
+        - input: username
+        - input: password
+        - submit
+        submit the resukts with  a POST to /login -->
+
+        <form action="/login" method="post">
+
+            <!-- Capture the username -->
+            <input 
+                type="text"
+                id="input-username"
+                name="username"
+                placeholder="Insert username">
+            </br></br>
+
+            <!-- Capture the password -->
+            <input 
+                type="password"
+                id="input-password"
+                name="password"
+                placeholder="Insert password">
+            <!--type=password to mask the input
+                placeholder to teel what to input in the section-->
+            </br></br>
+
+            <!-- Insert the button to submit the request to the flask server -->
+            <input type="submit" value="LOGIN">
+        </form>
     </body>
 </html>
