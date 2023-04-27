@@ -2,3 +2,4 @@
 myfile.txt
 apikey.json
 frontend-test
+__pycache__
