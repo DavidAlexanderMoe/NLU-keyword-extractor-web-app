@@ -1,6 +1,8 @@
 app/.env
 app/kubernetes
 app/FINAL_NOTES.txt
-frontend/.env
-frontend/__pycache__
-frontend/kubernetes
+app/requirements.txt
+app/frontend/.env
+app/frontend/__pycache__
+app/frontend/kubernetes
+app/frontend/requirements.txt
