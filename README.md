@@ -1,9 +1,9 @@
 # Keyword extractor engine with natural language understanding
 
 ### Simple keyword extractor from a given URL
------
-Project made for the "Cloud Computing Technologies" course held @ Catholi University of the Sacred Heart.
------
+
+Project made for the "Cloud Computing Technologies" course held @ Catholic University of the Sacred Heart.
+
 
 ## frontend/requirements:
 Flask==2.2.3
