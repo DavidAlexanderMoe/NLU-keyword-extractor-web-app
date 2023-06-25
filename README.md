@@ -2,7 +2,7 @@
 
 ### Simple keyword extractor from a given URL
 
-Project made for the "Cloud Computing Technologies" course held @ Catholic University of the Sacred Heart.
+Project made for the "Cloud Computing Technologies" course held @ Catholic University of the Sacred Heart. Had the opportunity to study and work with **Docker**, **Kubernetes**, **Helm** and **Terraform**.
 
 
 ## frontend/requirements:
