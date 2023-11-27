@@ -30,6 +30,7 @@ app = Flask("frontend-flask")
 # this works only if the user is logged in
 # but if the user is not logged in we need to tell flask what is the next action
 # basically redirect the user to the login page  -> create the una
+
 def homepage():
     return render_template("index.html")
 

@@ -4,5 +4,3 @@ app/*.txt
 app/frontend/.env
 app/frontend/__pycache__
 app/frontend/kubernetes
-app/frontend/requirements.txt
-app/requirements/*.txt
