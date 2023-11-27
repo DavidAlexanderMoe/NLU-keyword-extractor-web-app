@@ -1,6 +1,3 @@
 app/.env
 app/kubernetes
 app/*.txt
-app/frontend/.env
-app/frontend/__pycache__
-app/frontend/kubernetes
